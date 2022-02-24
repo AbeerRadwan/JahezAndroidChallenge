@@ -1,0 +1,302 @@
+[{
+		"id": 1,
+		"name": "Kudu",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "05:30 AM - 04:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/1.jpg",
+		"rating": 8.0,
+		"distance": 0.8866873944226332,
+		"hasOffer": false
+	},
+	{
+		"id": 2,
+		"name": "Shawarma Classic",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "11:30 AM - 02:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/2.jpg",
+		"rating": 8.0,
+		"distance": 1.5690683590005408,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 3,
+		"name": "Jan Burger",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "08:00 AM - 11:00 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/3.jpg",
+		"rating": 8.0,
+		"distance": 1.929934097630451,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 4,
+		"name": "Pizzaratti",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:00 PM - 03:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/4.jpg",
+		"rating": 8.0,
+		"distance": 1.9865785830705502,
+		"hasOffer": false
+	},
+	{
+		"id": 5,
+		"name": "Yogi",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "11:30 AM - 12:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/5.jpg",
+		"rating": 8.0,
+		"distance": 2.034175299546378,
+		"hasOffer": false
+	},
+	{
+		"id": 6,
+		"name": "Lets Pizza Wood Fire",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "01:15 PM - 12:50 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/6.jpg",
+		"rating": 8.0,
+		"distance": 2.0512894035458538,
+		"hasOffer": false
+	},
+	{
+		"id": 7,
+		"name": "Slider Concept",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:15 PM - 01:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/7.jpg",
+		"rating": 8.0,
+		"distance": 2.8265887519875266,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 8,
+		"name": "Zaatar w Zeit",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "06:00 AM - 01:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/8.jpg",
+		"rating": 8.0,
+		"distance": 3.3793478699618213,
+		"hasOffer": false
+	},
+	{
+		"id": 9,
+		"name": "Lolivo",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "08:00 AM - 12:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/9.jpg",
+		"rating": 8.0,
+		"distance": 3.477508957367463,
+		"hasOffer": false
+	},
+	{
+		"id": 10,
+		"name": "Rare Grill",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "11:30 AM - 01:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/10.jpg",
+		"rating": 8.0,
+		"distance": 3.4981029867595965,
+		"hasOffer": false
+	},
+	{
+		"id": 11,
+		"name": "Krokant",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "08:00 AM - 10:30 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/11.jpg",
+		"rating": 8.0,
+		"distance": 3.522562966498882,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 12,
+		"name": "Tannuru",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "05:00 AM - 04:59 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/12.jpg",
+		"rating": 8.0,
+		"distance": 3.6355326273386037,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 13,
+		"name": "Burn & Build",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "09:00 AM - 12:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/13.jpg",
+		"rating": 8.0,
+		"distance": 3.8498938166019885,
+		"hasOffer": false
+	},
+	{
+		"id": 14,
+		"name": "Chick N Bun",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:30 PM - 01:40 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/14.jpg",
+		"rating": 8.0,
+		"distance": 3.8537860989792248,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 15,
+		"name": "Mnaesh Amo Darwish",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "07:00 AM - 12:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/15.jpg",
+		"rating": 8.0,
+		"distance": 3.8728585168022636,
+		"hasOffer": false
+	},
+	{
+		"id": 16,
+		"name": "Harat Restaurant",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "06:00 AM - 12:00 PM & 01:00 PM - 01:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/16.jpg",
+		"rating": 8.0,
+		"distance": 4.287905675146609,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 17,
+		"name": "Burger Square",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "05:00 AM - 04:59 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/17.jpg",
+		"rating": 8.0,
+		"distance": 4.290354402958331,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 18,
+		"name": "ELEVATE Breakfast",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "05:00 AM - 04:59 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/18.jpg",
+		"rating": 8.0,
+		"distance": 4.305498227559117,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 19,
+		"name": "Bun.ch",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:00 PM - 03:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/19.jpg",
+		"rating": 8.0,
+		"distance": 4.787945580155541,
+		"hasOffer": false
+	},
+	{
+		"id": 20,
+		"name": "Shrimp Shack",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "11:00 AM - 02:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/20.jpg",
+		"rating": 8.0,
+		"distance": 4.830003137154522,
+		"hasOffer": false
+	},
+	{
+		"id": 21,
+		"name": "CHKN",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:30 PM - 02:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/21.jpg",
+		"rating": 8.0,
+		"distance": 4.909848285378526,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 22,
+		"name": "Addressmood cafe",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "06:00 AM - 05:59 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/22.jpg",
+		"rating": 8.0,
+		"distance": 0.020530844798277686,
+		"hasOffer": false
+	},
+	{
+		"id": 23,
+		"name": "The Pop Up Shot",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "07:30 AM - 11:30 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/23.jpg",
+		"rating": 8.0,
+		"distance": 0.06358477288851838,
+		"hasOffer": false
+	},
+	{
+		"id": 24,
+		"name": "Qshtalah Saffron",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "02:00 PM - 07:00 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/24.jpg",
+		"rating": 8.0,
+		"distance": 0.06707950736554012,
+		"hasOffer": true,
+		"offer": "9 Ø±ÙŠØ§Ù„"
+	},
+	{
+		"id": 25,
+		"name": "Our Special Friends",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "02:00 PM - 08:00 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/25.jpg",
+		"rating": 8.0,
+		"distance": 0.06884275963221573,
+		"hasOffer": false
+	},
+	{
+		"id": 26,
+		"name": "Najd Village",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:00 PM - 12:30 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/26.jpg",
+		"rating": 8.0,
+		"distance": 0.1248156838437589,
+		"hasOffer": false
+	},
+	{
+		"id": 27,
+		"name": "SWAY COFFEE",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "07:00 AM - 12:00 AM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/27.jpg",
+		"rating": 8.0,
+		"distance": 0.21654058456230454,
+		"hasOffer": false
+	},
+	{
+		"id": 28,
+		"name": "Jassas Coffee",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "06:00 AM - 11:00 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/28.jpg",
+		"rating": 8.0,
+		"distance": 0.2598740106789808,
+		"hasOffer": false
+	},
+	{
+		"id": 29,
+		"name": "Kabsa Corner",
+		"description": "Enjoy fast delivery from Jahez. Order now, or schedule your order any time you want",
+		"hours": "12:00 PM - 11:55 PM",
+		"image": "https://jahez-other-oniiphi8.s3.eu-central-1.amazonaws.com/29.jpg",
+		"rating": 8.0,
+		"distance": 0.33263792671313436,
+		"hasOffer": false
+	}
+]
