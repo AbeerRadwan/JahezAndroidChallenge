@@ -2,8 +2,8 @@ package net.jahez.jahezchallenge
 
 import android.app.Application
 import android.content.Context
-import net.jahez.jahezchallenge.utils.LocaleUtil
-import net.jahez.jahezchallenge.utils.Storage
+import net.jahez.jahezchallenge.Utils.LocaleUtil
+import net.jahez.jahezchallenge.Utils.Storage
 
 class MyApp: Application() {
     val storage : Storage by lazy {

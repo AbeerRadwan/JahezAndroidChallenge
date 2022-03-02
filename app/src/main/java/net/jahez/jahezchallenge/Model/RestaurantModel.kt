@@ -1,4 +1,4 @@
-package net.jahez.jahezchallenge.model
+package net.jahez.jahezchallenge.Model
 
 import com.google.gson.annotations.SerializedName
 

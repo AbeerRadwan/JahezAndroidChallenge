@@ -14,7 +14,7 @@
         android:theme="@style/Theme.JahezChallenge" >
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="net.jahez.jahezchallenge.UI.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

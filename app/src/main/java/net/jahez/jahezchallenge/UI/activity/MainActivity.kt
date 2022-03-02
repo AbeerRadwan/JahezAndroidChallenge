@@ -1,33 +1,37 @@
-package net.jahez.jahezchallenge.activity
+package net.jahez.jahezchallenge.UI.activity
 
 import android.app.AlertDialog
 import android.content.Context
-import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBar
 import androidx.core.view.GravityCompat
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.navigation.NavigationView
-import com.google.gson.Gson
 import net.jahez.jahezchallenge.BaseActivity
 import net.jahez.jahezchallenge.R
-import net.jahez.jahezchallenge.adapter.RestaurantAdapter
+import net.jahez.jahezchallenge.UI.adapter.RestaurantAdapter
 import net.jahez.jahezchallenge.databinding.ActivityMainBinding
-import net.jahez.jahezchallenge.model.RestaurantModel
-import net.jahez.jahezchallenge.utils.LocaleUtil
+import net.jahez.jahezchallenge.Network.MainRepository
+import net.jahez.jahezchallenge.Network.RetrofitService
+import net.jahez.jahezchallenge.Utils.LocaleUtil
+import net.jahez.jahezchallenge.ViewModel.MainViewModel
+import net.jahez.jahezchallenge.ViewModel.MainViewModelFactory
 import java.io.IOException
 import java.nio.charset.Charset
-import java.util.*
 
 
 class MainActivity : BaseActivity() {
     // view binding for the activity
     private lateinit var binding: ActivityMainBinding
-    private lateinit var  restaurantsList : List<RestaurantModel>
-    private lateinit var rvAdapter: RestaurantAdapter
-
+    private val TAG = "MainActivity"
+    lateinit var viewModel: MainViewModel
+    private val retrofitService = RetrofitService.getInstance()
+    val adapter = RestaurantAdapter()
+    val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(this)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -42,14 +46,18 @@ class MainActivity : BaseActivity() {
             setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24)
 
         }
-        val restaurantsString = loadJSONFromAsset()
-         restaurantsList =
-            Gson().fromJson(restaurantsString, Array<RestaurantModel>::class.java).asList()
-        val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(this)
+        binding.rvList.layoutManager = layoutManager
+        viewModel = ViewModelProvider(this, MainViewModelFactory(MainRepository(retrofitService))).get(MainViewModel::class.java)
+        binding.rvList.adapter = adapter
+        viewModel.restaurantsList.observe(this , androidx.lifecycle.Observer {
+            Log.d(TAG, "onCreate: $it")
+            adapter.setRestaurantList(it)
+        })
 
-         rvAdapter = RestaurantAdapter(restaurantsList)
-         binding.rvList.layoutManager = layoutManager
-        binding.rvList.adapter = rvAdapter
+        viewModel.errorMessage.observe(this,androidx.lifecycle.Observer {
+        })
+        viewModel.getAllRestaurants()
+
 
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
@@ -83,6 +91,8 @@ class MainActivity : BaseActivity() {
 
     }
 
+
+
     //appbar - toolbar button click
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
@@ -96,23 +106,7 @@ class MainActivity : BaseActivity() {
     }
 
 
-    private fun loadJSONFromAsset(): String {
-        val json: String?
-        try {
-            val inputStream = assets.open("restaurants.json")
-            val size = inputStream.available()
-            val buffer = ByteArray(size)
-            val charset: Charset = Charsets.UTF_8
-            inputStream.read(buffer)
-            inputStream.close()
-            json = String(buffer, charset)
-        }
-        catch (ex: IOException) {
-            ex.printStackTrace()
-            return ""
-        }
-        return json
-    }
+
 
    private fun getSortDialog(context : Context){
        val builder = AlertDialog.Builder(context)
@@ -125,9 +119,9 @@ class MainActivity : BaseActivity() {
                0 -> {
 
 
-                   val sortedByDistance = restaurantsList.sortedBy { it.distance }
-                   rvAdapter.restaurantList=sortedByDistance
-                   rvAdapter.notifyDataSetChanged()
+                   val sortedByDistance = viewModel.restaurantsList.value?.sortedBy { it.distance }
+                   adapter.setRestaurantList(sortedByDistance)
+
 
                }
            }

@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import net.jahez.jahezchallenge.utils.LocaleUtil
-import net.jahez.jahezchallenge.utils.Storage
+import net.jahez.jahezchallenge.Utils.LocaleUtil
+import net.jahez.jahezchallenge.Utils.Storage
 
 open class BaseActivity: AppCompatActivity() { //You can use your preferred activity instead of AppCompatActivity
     private lateinit var oldPrefLocaleCode : String

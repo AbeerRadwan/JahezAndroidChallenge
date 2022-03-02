@@ -1,4 +1,4 @@
-package net.jahez.jahezchallenge.utils
+package net.jahez.jahezchallenge.Utils
 
 import android.content.Context
 import android.content.res.Configuration
